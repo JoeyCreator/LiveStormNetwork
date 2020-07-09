@@ -1,13 +1,14 @@
 <template>
   <main>
     <h1>Home</h1>
-    <p>Wordl In Data</p>
+    <p>Live Storm Network</p>
   </main>
 </template>
 
 <script>
 export default {
-  name: "Home"
+  name: "Home",
+  components: {}
 };
 </script>
 

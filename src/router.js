@@ -20,6 +20,9 @@ import account from "./components/account-setup/account";
 import Login from "./components/auth/Login";
 import register from "./components/auth/register";
 import resetpassword from "./components/auth/resetpassword";
+import Navbar from "./components/Navbar";
+
+import SiteAlert from "./components2/SiteAlert";
 
 import Dashboard from "./views/admin/Dashboard";
 import IndividualTicket from "./views/admin/support/IndividualTicket";
@@ -109,6 +112,14 @@ const OurRoutes = [
   {
     path: "/knowledgebase",
     component: KnowledgeBase
+  },
+  {
+    path: "/navbar",
+    component: Navbar
+  },
+  {
+    path: "/sitealert",
+    component: SiteAlert
   }
 ];
 
