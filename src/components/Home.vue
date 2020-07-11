@@ -1,3 +1,4 @@
+<!-- src/components/Home.vue -->
 <template>
   <main>
     <h1>Home</h1>
